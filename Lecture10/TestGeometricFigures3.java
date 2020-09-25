@@ -39,6 +39,7 @@ abstract class GeometricFigure
   public abstract int numberOfSides();
 }
 
+
 class Rectangle extends GeometricFigure
 {
   private double height;
@@ -63,6 +64,7 @@ class Rectangle extends GeometricFigure
   public int numberOfSides() { return 4; }
 }
 
+
 class Square extends Rectangle
 {
   public Square(String name, double side)
@@ -71,6 +73,7 @@ class Square extends Rectangle
     setColor("Purple");
   }
 }
+
 
 public class TestGeometricFigures3
 {

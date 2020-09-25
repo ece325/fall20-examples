@@ -32,6 +32,7 @@ abstract class GeometricFigure
   public abstract int numberOfSides();
 }
 
+
 class Rectangle extends GeometricFigure
 {
   private double height;

@@ -38,7 +38,7 @@ public class Employee
 
   /**
    * Modify the employee's salary by the specified percent
-   * @param byPercent porcent amount to change the salary
+   * @param byPercent percent amount to change the salary
    */
   public void raiseSalary(double byPercent) {
     salary *= byPercent;

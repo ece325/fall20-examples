@@ -9,8 +9,8 @@ public class TestCompatibility2
     
     System.out.println(scott + " salary: $" + scott.getSalary());
     System.out.println("------------------");
-    System.out.println(staff + " salary: $" + scott.getSalary());
+    System.out.println(staff + " salary: $" + staff.getSalary());
     System.out.println("------------------");
-    System.out.println(staff1 + " salary: $" + scott.getSalary());
+    System.out.println(staff1 + " salary: $" + staff1.getSalary());
   }
 }
